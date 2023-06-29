@@ -2,6 +2,7 @@
 
 『poco-tech at Udemy』さんの動画を見つつ、SpringBootを使ったアプリケーション作成をする為のリポジトリです。
 
+[リンク](https://www.udemy.com/course/intellij-spring-boot/)
 
 ## 経緯
 RaiseTech第9週課題が行き詰まったこともあり、一度「車輪の再発明」ということでアプリケーションを作成することにした。

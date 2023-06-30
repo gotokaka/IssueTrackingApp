@@ -23,7 +23,8 @@ public class IssueController {
 
   //GET /issues/creationForm
   @GetMapping("/creationForm")
-  public String showCreationForm() {
+  public String showCreationForm(Model model) {
+    model.addAttribute("issueForm", new IssueForm()); //直接インスタンスを書くというやり方もある
     return "issues/creationForm";
   }
 

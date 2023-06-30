@@ -2,6 +2,7 @@ package com.example.its.domain.issue;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -15,11 +16,8 @@ public class IssueService {
     return issueRepository.findAll();
   }
 
-  // TODO トランザクション
+  @Transactional
   public void create(String summary, String description) {
     issueRepository.insert(summary, description);
-
-    // 後処理が増えたとする（以下、トランザクション処理をされていないとデータの整合性取れないことを確かめるExceptionのスロー）
-    throw new IllegalStateException("NG");
   }
 }

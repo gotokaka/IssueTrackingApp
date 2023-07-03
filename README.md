@@ -41,23 +41,55 @@ RaiseTech第9週課題が行き詰まったこともあり、一度「車輪の�
 </details>
 
 
+## 動作確認
+
+各操作の動作確認をします。
+
+<details>
+<summary><b>トップページから課題一覧の選択</b></summary>
+  
+![課題管理APP](https://github.com/gotokaka/IssueTrackingApp/assets/120085564/6c6e6f43-d8d4-49cb-92bb-1b3e9f348451)  
+トップページから一覧画面に遷移出来ます。
+
+![APP課題詳細](https://github.com/gotokaka/IssueTrackingApp/assets/120085564/cdc66726-1f4c-4bd3-9180-451a2ca8f496)  
+一覧画面の各課題を見ることが出来ます
+
+</details>
 
 
-![課題管理APP](https://github.com/gotokaka/IssueTrackingApp/assets/120085564/6c6e6f43-d8d4-49cb-92bb-1b3e9f348451)
+<details>
+<summary><b>課題の作成</b></summary>
 
 
-![APP課題詳細](https://github.com/gotokaka/IssueTrackingApp/assets/120085564/cdc66726-1f4c-4bd3-9180-451a2ca8f496)
+![APP課題作成](https://github.com/gotokaka/IssueTrackingApp/assets/120085564/0a9515d2-01cd-43ac-b39d-b77da456c9f1)  
+新しい課題を作成出来ます。課題はDBに保存されます。
 
 
-![APP課題作成](https://github.com/gotokaka/IssueTrackingApp/assets/120085564/0a9515d2-01cd-43ac-b39d-b77da456c9f1)
+</details>
+
+<details>
+<summary><b>エラーハンドリング</b></summary>
+
+バリデーションによるエラーハンドリングも実装しました。
 
 
-![APP課題作成文字サイズvali](https://github.com/gotokaka/IssueTrackingApp/assets/120085564/20742dc6-1faa-4332-b5cc-855913bb2a8d)
+![APP課題作成文字サイズvali](https://github.com/gotokaka/IssueTrackingApp/assets/120085564/20742dc6-1faa-4332-b5cc-855913bb2a8d)  
+文字サイズは256文字で設定しました。上限を超えるとこのようになります。
+
+
+![APP課題作成vali](https://github.com/gotokaka/IssueTrackingApp/assets/120085564/745cdc2f-b0dd-4572-bdcd-35dd48e9e0fb)  
+空文字を打つとエラーが出ます。
 
 
 
-![APP課題作成文字サイズvali](https://github.com/gotokaka/IssueTrackingApp/assets/120085564/136cd33b-2469-41fd-a711-4612063bafa8)
-
-
-
+# まとめ
+簡易的なアプリケーションではあるが、基礎の基礎がたくさん詰まった良い教材だった。今回取り組んで考えたことをまとめる。
+- Javaを使ったアプリケーションで使われるであろう技術の基本を体感的に獲得できた。それによりより発展的な内容の理解の基礎を作れた。
+- RaiseTechで学習している内容が殆どだったので、理解の進度も変わっていくと思われる。
+- RaiseTechの課題の難易度が相当高いことが分かった。かつ、その難易度をクリアしなければ業界でやっていけない事も改めて自覚した。
+- Git管理やGitHubのPRを整える重要性を実感できた。プロジェクトとして進める時に整然としているべき。
+- Javaやフレームワークだけでなく、HTMLやDBに関する操作も同時に行うことで、Java学習のみに傾倒するべきではないと感じた。
+RaiseeTech課題はその重要性から様々な技術習得を目指すが、敢えて深く触れない場合も多い。そこを自身で調査し気づき自分で学習するということ込みで「自走力」なのかもしれない。
+- 初学者に於いての「模倣」は十分な学習になり得る。分からないながらも手を動かし、調べながら論理を理解しようとする並行学習は現在のレベルではまだまだやっても価値はある。
+- 加えて、「基本情報技術者試験」の様な資格学習の内容も、コンピューターサイエンスを体系的に学習するものとしては有用である。本アプリ作成で言及されていた概論やロジックを理解する助力にもなった。今後も独学で継続する。
 

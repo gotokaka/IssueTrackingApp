@@ -80,6 +80,7 @@ RaiseTech第9週課題が行き詰まったこともあり、一度「車輪の�
 ![APP課題作成vali](https://github.com/gotokaka/IssueTrackingApp/assets/120085564/745cdc2f-b0dd-4572-bdcd-35dd48e9e0fb)  
 空文字を打つとエラーが出ます。
 
+</details>
 
 
 # まとめ
